@@ -65,69 +65,73 @@ Sarah,genital group B strept,no
 Sarah,have chicken pox,no
 Sarah,vaccinated against chicken pox,no
 Sarah,other infectious disease,no
-Tyler,Diabetes Type 1,yes
-Tyler,Diabetes Type 2,yes
-Tyler,HIV,no
-Tyler,Hypertension,yes
-Tyler,Hypothyroidism,yes
-Tyler,Hyperthyroidism,yes
-Tyler,Abnormal Pap,no
-Tyler,Post Partum Depression,no
-Tyler,Anemia,no
-Tyler,Asthma,no
-Tyler,Bleeding/Clotting Disorder,no
-Tyler,Blood Transfusion,no
-Tyler,Depression,yes
-Tyler,GYN Problems,yes
-Tyler,Headaches (Migraines),yes
-Tyler,Positive PPD,no
-Tyler,Stroke,no
-Tyler,Tuberculosis,yes
-Tyler,Seizures,yes
-Tyler,Hepatitis,yes
-Tyler,C-Section,yes
-Tyler,Myomectomy,no
-Tyler,LEEP Procedure,no
-Tyler,Conization,no
-Tyler,Laser,no
-Tyler,Dilation and Curettage ,no
-Tyler,Surgery on your uterus,no
-Tyler,CRYOSURGERY,no
-Tyler,Loss of function or sensation,no
-Tyler,Other neurological problem,yes
-Tyler,Problems with self esteem,no
-Tyler,Required psychiatric care,yes
-Tyler,excessive bleeding after surgery,no
-Tyler,Bleed more than other women after cut,no
-Tyler,Endocrine problems,yes
-Tyler,major accident,yes
-Tyler,has anyone physically hurt you,no
-Tyler,forced sex,yes
-Tyler,refuse blood transfusion,yes
-Tyler,rather die than receive blood transfusion,yes
-Tyler,for religious reasons,no
-Tyler,bllod Rh negative,yes
-Tyler,abnormal blood,no
-Tyler,breast problems,yes
-Tyler,breastfed,yes
-Tyler,anesthetic complications,yes
-Tyler,history of abnormalities of the uterus,yes
-Tyler,mother take DES,no
-Tyler,more than year to become pregnant,no
-Tyler,evaluated for infertility,no
-Tyler,family medical problems precluding pregnancy,no
-Tyler,other concerns regarding pregnancy,no
-Tyler,any medications/drugs/alcohol since last period,no
-Tyler,genetic risks,no
-Tyler,object to hep B testing,no
-Tyler,object HIV testing,no
-Tyler,high risk of contracting aids,no
-Tyler,received BCG vaccine,no
-Tyler,live with tuberculosis,no
-Tyler,exposed to tuberculosis,no
-Tyler,partner with genital herpes,yes
-Tyler,rash or viral illness since period,yes
-Tyler,genital group B strept,no
-Tyler,have chicken pox,no
-Tyler,vaccinated against chicken pox,no
-Tyler,other infectious disease,no
+Sarah,Occupation,nurse
+Sarah,Age,23
+Taylor,Diabetes Type 1,yes
+Taylor,Diabetes Type 2,yes
+Taylor,HIV,no
+Taylor,Hypertension,yes
+Taylor,Hypothyroidism,yes
+Taylor,Hyperthyroidism,yes
+Taylor,Abnormal Pap,no
+Taylor,Post Partum Depression,no
+Taylor,Anemia,no
+Taylor,Asthma,no
+Taylor,Bleeding/Clotting Disorder,no
+Taylor,Blood Transfusion,no
+Taylor,Depression,yes
+Taylor,GYN Problems,yes
+Taylor,Headaches (Migraines),yes
+Taylor,Positive PPD,no
+Taylor,Stroke,no
+Taylor,Tuberculosis,yes
+Taylor,Seizures,yes
+Taylor,Hepatitis,yes
+Taylor,C-Section,yes
+Taylor,Myomectomy,no
+Taylor,LEEP Procedure,no
+Taylor,Conization,no
+Taylor,Laser,no
+Taylor,Dilation and Curettage ,no
+Taylor,Surgery on your uterus,no
+Taylor,CRYOSURGERY,no
+Taylor,Loss of function or sensation,no
+Taylor,Other neurological problem,yes
+Taylor,Problems with self esteem,no
+Taylor,Required psychiatric care,yes
+Taylor,excessive bleeding after surgery,no
+Taylor,Bleed more than other women after cut,no
+Taylor,Endocrine problems,yes
+Taylor,major accident,yes
+Taylor,has anyone physically hurt you,no
+Taylor,forced sex,yes
+Taylor,refuse blood transfusion,yes
+Taylor,rather die than receive blood transfusion,yes
+Taylor,for religious reasons,no
+Taylor,bllod Rh negative,yes
+Taylor,abnormal blood,no
+Taylor,breast problems,yes
+Taylor,breastfed,yes
+Taylor,anesthetic complications,yes
+Taylor,history of abnormalities of the uterus,yes
+Taylor,mother take DES,no
+Taylor,more than year to become pregnant,no
+Taylor,evaluated for infertility,no
+Taylor,family medical problems precluding pregnancy,no
+Taylor,other concerns regarding pregnancy,no
+Taylor,any medications/drugs/alcohol since last period,no
+Taylor,genetic risks,no
+Taylor,object to hep B testing,no
+Taylor,object HIV testing,no
+Taylor,high risk of contracting aids,no
+Taylor,received BCG vaccine,no
+Taylor,live with tuberculosis,no
+Taylor,exposed to tuberculosis,no
+Taylor,partner with genital herpes,yes
+Taylor,rash or viral illness since period,yes
+Taylor,genital group B strept,no
+Taylor,have chicken pox,no
+Taylor,vaccinated against chicken pox,no
+Taylor,other infectious disease,no
+Taylor,Occupation,teacher
+Taylor,Age,24
