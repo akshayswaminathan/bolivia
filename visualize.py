@@ -11,8 +11,9 @@ for r in toread:
   with open(r, 'rt') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
     for row in spamreader:
-      binaryqs[row[0]] = "yes" if random.random() < 0.5 else "no" # random inputs for now
-      # binaryqs[row[1]] = row[0] # the actual code
+      #binaryqs[row[1]] = "yes" if random.random() < 0.5 else "no" # random inputs for now
+      binaryqs[row[1]] = row[0] # the actual code
+      person = row[0]
   data.append(binaryqs)
 
 # example bar graph for chicken pox
@@ -26,3 +27,17 @@ plt.bar(x, y)
 plt.xticks(x, ('have had chicken pox', 'haven\'t had chicken pox'))
 plt.ylabel('number of people')
 plt.show()
+
+'''
+with open("data.csv") as csvfile:
+    readCSV = csv.reader(csvfile, delimiter=',')
+    next(csvfile)
+    for row in readCSV:
+        person = row[0]
+        # Initializes only one person dict
+        if person not in final:
+            final[person] = {f: 0 for f in fruitToAnalyze}
+        fruit_counter = final[person]
+        fruit = row[1].strip()
+        if fruit in fruitToAnalyze:
+            fruit_counter[fruit] += 1 '''
