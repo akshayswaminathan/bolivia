@@ -16,19 +16,46 @@ for r in toread:
       person = row[0]
   data.append(binaryqs)
 
-# example bar graph for chicken pox
-yes = len([d for d in data if d['have chicken pox'] == 'yes'])
+graphs = ["histogram", "line", "scatter", "tables"]
+graph = ""
+inps = []
 
-x = np.arange(2)
-y = [yes, len(data) - yes]
+while True:
+  while True:
+    graph = input("enter type of graph: ").lower()
+    if graph in graphs:
+      break
+    else:
+      print("please enter one of the following: %s" % (", ".join(graphs)))
 
-fig, ax = plt.subplots()
-plt.bar(x, y)
-plt.xticks(x, ('have had chicken pox', 'haven\'t had chicken pox'))
-plt.ylabel('number of people')
-plt.show()
+  inps = input("enter data types separated by commas: ").split(",")
+  inps = [i.strip() for i in inps]
+  yn = input("%s with data type(s) '%s'? y/n: " % (graph, ", ".join(inps))).lower()
+  if yn == "yes" or yn == "y":
+    break
+
+if graph == "histogram" and len(inps) == 1:
+  yes = len([d for d in data if d[inps[0]] == 'yes'])
+
+  x = np.arange(2)
+  y = [yes, len(data) - yes]
+
+  fig, ax = plt.subplots()
+  plt.bar(x, y)
+  plt.xticks(x, ('yes', 'no'))
+  plt.ylabel('number of people')
+  plt.title(inps[0])
+  plt.show()
+
+# elisa!! inps is list of data types - pls make fancy bar graph :)
+if graph == "histogram" and len(inps) > 1:
+  pass
+
 
 '''
+
+some sample code im working with to make multi person dicts
+
 with open("data.csv") as csvfile:
     readCSV = csv.reader(csvfile, delimiter=',')
     next(csvfile)

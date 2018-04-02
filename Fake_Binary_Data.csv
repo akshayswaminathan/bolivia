@@ -1,137 +1,139 @@
-Name,Binary Q,Response
-Sarah,Diabetes Type 1,yes
-Sarah,Diabetes Type 2,yes
-Sarah,HIV,no
-Sarah,Hypertension,yes
-Sarah,Hypothyroidism,yes
-Sarah,Hyperthyroidism,yes
-Sarah,Abnormal Pap,no
-Sarah,Post Partum Depression,no
-Sarah,Anemia,no
-Sarah,Asthma,no
-Sarah,Bleeding/Clotting Disorder,no
-Sarah,Blood Transfusion,no
-Sarah,Depression,yes
-Sarah,GYN Problems,yes
-Sarah,Headaches (Migraines),yes
-Sarah,Positive PPD,no
-Sarah,Stroke,no
-Sarah,Tuberculosis,yes
-Sarah,Seizures,yes
-Sarah,Hepatitis,yes
-Sarah,C-Section,yes
-Sarah,Myomectomy,no
-Sarah,LEEP Procedure,no
-Sarah,Conization,no
-Sarah,Laser,no
-Sarah,Dilation and Curettage ,no
-Sarah,Surgery on your uterus,no
-Sarah,CRYOSURGERY,no
-Sarah,Loss of function or sensation,no
-Sarah,Other neurological problem,yes
-Sarah,Problems with self esteem,no
-Sarah,Required psychiatric care,yes
-Sarah,excessive bleeding after surgery,no
-Sarah,Bleed more than other women after cut,no
-Sarah,Endocrine problems,yes
-Sarah,major accident,yes
-Sarah,has anyone physically hurt you,no
-Sarah,forced sex,yes
-Sarah,refuse blood transfusion,yes
-Sarah,rather die than receive blood transfusion,yes
-Sarah,for religious reasons,no
-Sarah,bllod Rh negative,yes
-Sarah,abnormal blood,no
-Sarah,breast problems,yes
-Sarah,breastfed,yes
-Sarah,anesthetic complications,yes
-Sarah,history of abnormalities of the uterus,yes
-Sarah,mother take DES,no
-Sarah,more than year to become pregnant,no
-Sarah,evaluated for infertility,no
-Sarah,family medical problems precluding pregnancy,no
-Sarah,other concerns regarding pregnancy,no
-Sarah,any medications/drugs/alcohol since last period,no
-Sarah,genetic risks,no
-Sarah,object to hep B testing,no
-Sarah,object HIV testing,no
-Sarah,high risk of contracting aids,no
-Sarah,received BCG vaccine,no
-Sarah,live with tuberculosis,no
-Sarah,exposed to tuberculosis,no
-Sarah,partner with genital herpes,yes
-Sarah,rash or viral illness since period,yes
-Sarah,genital group B strept,no
-Sarah,have chicken pox,no
-Sarah,vaccinated against chicken pox,no
-Sarah,other infectious disease,no
-Sarah,Occupation,nurse
-Sarah,Age,23
-Taylor,Diabetes Type 1,yes
-Taylor,Diabetes Type 2,yes
-Taylor,HIV,no
-Taylor,Hypertension,yes
-Taylor,Hypothyroidism,yes
-Taylor,Hyperthyroidism,yes
-Taylor,Abnormal Pap,no
-Taylor,Post Partum Depression,no
-Taylor,Anemia,no
-Taylor,Asthma,no
-Taylor,Bleeding/Clotting Disorder,no
-Taylor,Blood Transfusion,no
-Taylor,Depression,yes
-Taylor,GYN Problems,yes
-Taylor,Headaches (Migraines),yes
-Taylor,Positive PPD,no
-Taylor,Stroke,no
-Taylor,Tuberculosis,yes
-Taylor,Seizures,yes
-Taylor,Hepatitis,yes
-Taylor,C-Section,yes
-Taylor,Myomectomy,no
-Taylor,LEEP Procedure,no
-Taylor,Conization,no
-Taylor,Laser,no
-Taylor,Dilation and Curettage ,no
-Taylor,Surgery on your uterus,no
-Taylor,CRYOSURGERY,no
-Taylor,Loss of function or sensation,no
-Taylor,Other neurological problem,yes
-Taylor,Problems with self esteem,no
-Taylor,Required psychiatric care,yes
-Taylor,excessive bleeding after surgery,no
-Taylor,Bleed more than other women after cut,no
-Taylor,Endocrine problems,yes
-Taylor,major accident,yes
-Taylor,has anyone physically hurt you,no
-Taylor,forced sex,yes
-Taylor,refuse blood transfusion,yes
-Taylor,rather die than receive blood transfusion,yes
-Taylor,for religious reasons,no
-Taylor,bllod Rh negative,yes
-Taylor,abnormal blood,no
-Taylor,breast problems,yes
-Taylor,breastfed,yes
-Taylor,anesthetic complications,yes
-Taylor,history of abnormalities of the uterus,yes
-Taylor,mother take DES,no
-Taylor,more than year to become pregnant,no
-Taylor,evaluated for infertility,no
-Taylor,family medical problems precluding pregnancy,no
-Taylor,other concerns regarding pregnancy,no
-Taylor,any medications/drugs/alcohol since last period,no
-Taylor,genetic risks,no
-Taylor,object to hep B testing,no
-Taylor,object HIV testing,no
-Taylor,high risk of contracting aids,no
-Taylor,received BCG vaccine,no
-Taylor,live with tuberculosis,no
-Taylor,exposed to tuberculosis,no
-Taylor,partner with genital herpes,yes
-Taylor,rash or viral illness since period,yes
-Taylor,genital group B strept,no
-Taylor,have chicken pox,no
-Taylor,vaccinated against chicken pox,no
-Taylor,other infectious disease,no
-Taylor,Occupation,teacher
-Taylor,Age,24
+Question,Answer
+Name, Sarah
+Diabetes Type 1,yes
+Diabetes Type 2,yes
+HIV,no
+Hypertension,yes
+Hypothyroidism,yes
+Hyperthyroidism,yes
+Abnormal Pap,no
+Post Partum Depression,no
+Anemia,no
+Asthma,no
+Bleeding/Clotting Disorder,no
+Blood Transfusion,no
+Depression,yes
+GYN Problems,yes
+Headaches (Migraines),yes
+Positive PPD,no
+Stroke,no
+Tuberculosis,yes
+Seizures,yes
+Hepatitis,yes
+C-Section,yes
+Myomectomy,no
+LEEP Procedure,no
+Conization,no
+Laser,no
+Dilation and Curettage ,no
+Surgery on your uterus,no
+CRYOSURGERY,no
+Loss of function or sensation,no
+Other neurological problem,yes
+Problems with self esteem,no
+Required psychiatric care,yes
+excessive bleeding after surgery,no
+Bleed more than other women after cut,no
+Endocrine problems,yes
+major accident,yes
+has anyone physically hurt you,no
+forced sex,yes
+refuse blood transfusion,yes
+rather die than receive blood transfusion,yes
+for religious reasons,no
+blood Rh negative,yes
+abnormal blood,no
+breast problems,yes
+breastfed,yes
+anesthetic complications,yes
+history of abnormalities of the uterus,yes
+mother take DES,no
+more than year to become pregnant,no
+evaluated for infertility,no
+family medical problems precluding pregnancy,no
+other concerns regarding pregnancy,no
+any medications/drugs/alcohol since last period,no
+genetic risks,no
+object to hep B testing,no
+object HIV testing,no
+high risk of contracting aids,no
+received BCG vaccine,no
+live with tuberculosis,no
+exposed to tuberculosis,no
+partner with genital herpes,yes
+rash or viral illness since period,yes
+genital group B strep,no
+have chicken pox,no
+vaccinated against chicken pox,no
+other infectious disease,no
+Occupation,teacher
+Age,27
+Name, Taylor
+Diabetes Type 1,yes
+Diabetes Type 2,yes
+HIV,no
+Hypertension,yes
+Hypothyroidism,yes
+Hyperthyroidism,yes
+Abnormal Pap,no
+Post Partum Depression,no
+Anemia,no
+Asthma,no
+Bleeding/Clotting Disorder,no
+Blood Transfusion,no
+Depression,yes
+GYN Problems,yes
+Headaches (Migraines),yes
+Positive PPD,no
+Stroke,no
+Tuberculosis,yes
+Seizures,yes
+Hepatitis,yes
+C-Section,yes
+Myomectomy,no
+LEEP Procedure,no
+Conization,no
+Laser,no
+Dilation and Curettage ,no
+Surgery on your uterus,no
+CRYOSURGERY,no
+Loss of function or sensation,no
+Other neurological problem,yes
+Problems with self esteem,no
+Required psychiatric care,yes
+excessive bleeding after surgery,no
+Bleed more than other women after cut,no
+Endocrine problems,yes
+major accident,yes
+has anyone physically hurt you,no
+forced sex,yes
+refuse blood transfusion,yes
+rather die than receive blood transfusion,yes
+for religious reasons,no
+blood Rh negative,yes
+abnormal blood,no
+breast problems,yes
+breastfed,yes
+anesthetic complications,yes
+history of abnormalities of the uterus,yes
+mother take DES,no
+more than year to become pregnant,no
+evaluated for infertility,no
+family medical problems precluding pregnancy,no
+other concerns regarding pregnancy,no
+any medications/drugs/alcohol since last period,no
+genetic risks,no
+object to hep B testing,no
+object HIV testing,no
+high risk of contracting aids,no
+received BCG vaccine,no
+live with tuberculosis,no
+exposed to tuberculosis,no
+partner with genital herpes,yes
+rash or viral illness since period,yes
+genital group B strep,no
+have chicken pox,yes
+vaccinated against chicken pox,no
+other infectious disease,no
+Occupation,nurse
+Age,24
