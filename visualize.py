@@ -6,15 +6,14 @@ import random
 toread = ["Fake_Binary_Data.csv"] * 50 # reading the same file 50 times over
 data = []
 
-while len(toread) > 0:
+for r in toread:
   binaryqs = {}
-  with open(toread[0], 'rt') as csvfile:
+  with open(r, 'rt') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
     for row in spamreader:
       binaryqs[row[0]] = "yes" if random.random() < 0.5 else "no" # random inputs for now
       # binaryqs[row[1]] = row[0] # the actual code
   data.append(binaryqs)
-  del toread[0]
 
 # example bar graph for chicken pox
 yes = len([d for d in data if d['have chicken pox'] == 'yes'])
