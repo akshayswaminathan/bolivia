@@ -3,18 +3,29 @@ import numpy as np
 import matplotlib.pyplot as plt
 import random
 
-toread = ["Fake_Binary_Data.csv"] * 50 # reading the same file 50 times over
-data = []
+toread = ["Fake_Binary_Data.csv"]
+alldata = {}
 
+current_person = None
 for r in toread:
-  binaryqs = {}
   with open(r, 'rt') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
+    binaryqs = {}
     for row in spamreader:
-      binaryqs[row[0]] = "yes" if random.random() < 0.5 else "no" # random inputs for now
-      # binaryqs[row[1]] = row[0] # the actual code
-  data.append(binaryqs)
+      if row[0] == 'Name':
+        if current_person:
+          alldata[current_person.strip()] = binaryqs
+          current_person = row[1]
+          binaryqs = {}
+        else:
+          current_person = row[1]
+      elif row[0] != "Question":
+        binaryqs[row[0]] = "yes" if random.random() < 0.5 else "no" # random inputs for now
+        # binaryqs[row[0]] = row[1] # the actual code
+  alldata[current_person] = binaryqs
+  current_person = None
 
+data = list(alldata.values())
 graphs = ["histogram", "line", "scatter", "tables"]
 graph = ""
 inps = []
@@ -46,9 +57,30 @@ if graph == "histogram" and len(inps) == 1:
   plt.title(inps[0])
   plt.show()
 
-# elisa!! inps is list of data types - pls make fancy bar graph :)
+
 if graph == "histogram" and len(inps) > 1:
-  pass
+  N = len(inps)
+  yes = []
+  no = []
+  for i in range(len(inps)):
+    yes.append(len([d for d in data if d[inps[i]] == 'yes']) / len(data))
+    no.append(1 - yes[i])
+
+  ind = np.arange(N)
+  width = 0.35
+
+  p1 = plt.bar(ind, yes, width)
+  p2 = plt.bar(ind, no, width, bottom = yes)
+
+  plt.ylabel('Number of People')
+  plt.title(", ".join(inps))
+  plt.xticks(ind, inps)
+  plt.yticks(np.arange(0, 1.1, 0.1))
+  plt.legend((p1[0], p2[0]), ('yes', 'no'))
+
+  plt.show()
+
+
 
 
 
