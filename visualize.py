@@ -83,4 +83,8 @@ if graph == "histogram" and len(inps) > 1:
 
 
 
+'''
 
+some sample code im working with to make multi person dicts
+
+'''
