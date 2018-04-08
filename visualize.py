@@ -4,17 +4,21 @@ import matplotlib.pyplot as plt
 import random
 
 toread = ["Fake_Binary_Data.csv"] * 50 # reading the same file 50 times over
-data = []
+data = {}
 
+current_person = ''
 for r in toread:
-  binaryqs = {}
   with open(r, 'rt') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
+    binaryqs = {}
     for row in spamreader:
+      if row[0] == 'Name':
+        if row[1] != current_person:
+          data[current_person] = binaryqs
+          current_person = row[1]
       #binaryqs[row[1]] = "yes" if random.random() < 0.5 else "no" # random inputs for now
-      binaryqs[row[1]] = row[0] # the actual code
-      person = row[0]
-  data.append(binaryqs)
+      binaryqs[row[0]] = row[1] # the actual code
+
 
 graphs = ["histogram", "line", "scatter", "tables"]
 graph = ""
@@ -56,15 +60,4 @@ if graph == "histogram" and len(inps) > 1:
 
 some sample code im working with to make multi person dicts
 
-with open("data.csv") as csvfile:
-    readCSV = csv.reader(csvfile, delimiter=',')
-    next(csvfile)
-    for row in readCSV:
-        person = row[0]
-        # Initializes only one person dict
-        if person not in final:
-            final[person] = {f: 0 for f in fruitToAnalyze}
-        fruit_counter = final[person]
-        fruit = row[1].strip()
-        if fruit in fruitToAnalyze:
-            fruit_counter[fruit] += 1 '''
+'''
